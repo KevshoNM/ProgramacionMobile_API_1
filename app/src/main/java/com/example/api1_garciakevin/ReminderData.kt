@@ -13,7 +13,7 @@ val sampleReminders: List<Reminder> = listOf(
         categoria = ReminderCategory.Estudio,
         prioridad = ReminderPriority.Alta,
         estado = ReminderStatus.Pendiente,
-        vencimiento = "2026-10-27"
+        vencimiento = "2026-11-02"
     ),
     Reminder(
         id = 2,
@@ -21,7 +21,7 @@ val sampleReminders: List<Reminder> = listOf(
         categoria = ReminderCategory.Estudio,
         prioridad = ReminderPriority.Alta,
         estado = ReminderStatus.Pendiente,
-        vencimiento = "2026-10-29"
+        vencimiento = "2026-10-28"
     ),
     Reminder(
         id = 3,
@@ -40,7 +40,7 @@ val sampleReminders: List<Reminder> = listOf(
     ),
     Reminder(
         id = 5,
-        titulo = "Salir a caminar",
+        titulo = "Dejar el Lol",
         categoria = ReminderCategory.Salud,
         prioridad = ReminderPriority.Media,
         estado = ReminderStatus.Cancelado
